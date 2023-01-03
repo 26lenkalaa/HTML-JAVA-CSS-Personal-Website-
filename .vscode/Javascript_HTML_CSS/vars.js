@@ -38,21 +38,28 @@ const person = {
 
 const { grade, address } = person;
 
-const JSONperson = JSON.stringify(person);
 
 console.log(grade, address);
-console.log(JSONperson);
 
 let key = "age"
 
 //Fuctions
-function createFuctions(){
-    
+function createFuctions(name){
+    console.log("hello" + name);
 }
 
+//Loops
+//while loops
 
+let i = 0;
+while(i < 10){
+    i++;
+    console.log(i);
+}
 
-
+for (let i = 0; i < 10; i++){
+    console.log(i);
+}
 
 //Return Statements
 console.log(firstAge);
