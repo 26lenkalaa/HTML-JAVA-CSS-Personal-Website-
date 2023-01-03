@@ -57,9 +57,23 @@ while(i < 10){
     console.log(i);
 }
 
+//For Loops
 for (let i = 0; i < 10; i++){
     console.log(i);
 }
+
+
+//Conditionals
+let a = 1; 
+let b = 2; 
+if(a>b){
+    console.log("a is bigger than b");
+}else{
+    console.log("a is smaller than b");
+}
+
+
+
 
 //Return Statements
 console.log(firstAge);
